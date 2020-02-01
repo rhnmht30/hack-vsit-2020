@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".GetMyLocation">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/p2"
+            android:scaleType="centerCrop"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="58dp"
+            />
+
+<androidx.cardview.widget.CardView
+    android:layout_centerInParent="true"
+    android:layout_below="@id/img1"
+    android:layout_marginTop="48dp"
+    android:layout_width="320dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp"
+    android:layout_height="240dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/bgcard"
+    >
+
+    <TextView
+
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Location Tracked"
+        android:textColor="?colorPrimary"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Longitude - 71.231895"
+        android:textColor="?colorPrimary"
+        android:textSize="20sp"
+        />
+    <TextView
+    android:layout_marginTop="16dp"
+    android:textAlignment="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Latitude - 28.231689"
+    android:textColor="?colorPrimary"
+    android:textSize="20sp"
+    />
+    <TextView
+    android:layout_marginTop="16dp"
+    android:textAlignment="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Address - VIPS"
+    android:textColor="?colorPrimary"
+    android:textSize="20sp"
+    />
+
+
+</LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+
+</FrameLayout>

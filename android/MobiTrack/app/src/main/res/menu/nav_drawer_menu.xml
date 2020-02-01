@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- TODO : ICON ADD -->
+    <item
+        android:id="@+id/getMyLocation"
+        android:title="Get My Location" />
+    <item
+    android:id="@+id/nearByLcoation"
+    android:title="Near by Location" />
+    <item
+        android:id="@+id/shareLocation"
+        android:title="Share Location" />
+</menu>

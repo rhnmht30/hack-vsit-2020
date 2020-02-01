@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/getMyLocation">
+
+    <fragment
+        android:id="@+id/getMyLocation"
+        android:name="com.example.mobi2.GetMyLocation"
+        android:label="fragment_get_my_location"
+        tools:layout="@layout/fragment_get_my_location" >
+        <action
+            android:id="@+id/action_getMyLocation_to_getMyLocationFinal"
+            app:destination="@id/getMyLocationFinal" />
+    </fragment>
+    <fragment
+        android:id="@+id/shareLocation"
+        android:name="com.example.mobi2.ShareLocation"
+        android:label="fragment_share_location"
+        tools:layout="@layout/fragment_share_location" >
+        <action
+            android:id="@+id/action_shareLocation_to_shareLocationFinal"
+            app:destination="@id/shareLocationFinal" />
+    </fragment>
+    <fragment
+        android:id="@+id/nearByLocation"
+        android:name="com.example.mobi2.NearByLocation"
+        android:label="fragment_near_by_location"
+        tools:layout="@layout/fragment_near_by_location" >
+        <action
+            android:id="@+id/action_nearByLocation_to_nearByLocaitonFinal"
+            app:destination="@id/nearByLocaitonFinal" />
+    </fragment>
+    <fragment
+        android:id="@+id/getMyLocationFinal"
+        android:name="com.example.mobi2.GetMyLocationFinal"
+        android:label="fragment_get_my_location_final"
+        tools:layout="@layout/fragment_get_my_location_final" />
+    <fragment
+        android:id="@+id/nearByLocaitonFinal"
+        android:name="com.example.mobi2.NearByLocaitonFinal"
+        android:label="fragment_near_by_locaiton_final"
+        tools:layout="@layout/fragment_near_by_locaiton_final" />
+    <fragment
+        android:id="@+id/shareLocationFinal"
+        android:name="com.example.mobi2.ShareLocationFinal"
+        android:label="fragment_share_location_final"
+        tools:layout="@layout/fragment_share_location_final" />
+</navigation>
