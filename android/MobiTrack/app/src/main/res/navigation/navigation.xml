@@ -14,6 +14,7 @@
             android:id="@+id/action_getMyLocation_to_getMyLocationFinal"
             app:destination="@id/getMyLocationFinal" />
     </fragment>
+
     <fragment
         android:id="@+id/shareLocation"
         android:name="com.example.mobi2.ShareLocation"
@@ -23,6 +24,18 @@
             android:id="@+id/action_shareLocation_to_shareLocationFinal"
             app:destination="@id/shareLocationFinal" />
     </fragment>
+
+    <fragment
+        android:id="@+id/getMyLocationFinal"
+        android:name="com.example.mobi2.GetMyLocationFinal"
+        android:label="fragment_get_my_location_final"
+        tools:layout="@layout/fragment_get_my_location_final" />
+    <fragment
+        android:id="@+id/shareLocationFinal"
+        android:name="com.example.mobi2.ShareLocationFinal"
+        android:label="fragment_share_location_final"
+        tools:layout="@layout/fragment_share_location_final" />
+
     <fragment
         android:id="@+id/nearByLocation"
         android:name="com.example.mobi2.NearByLocation"
@@ -33,18 +46,7 @@
             app:destination="@id/nearByLocaitonFinal" />
     </fragment>
     <fragment
-        android:id="@+id/getMyLocationFinal"
-        android:name="com.example.mobi2.GetMyLocationFinal"
-        android:label="fragment_get_my_location_final"
-        tools:layout="@layout/fragment_get_my_location_final" />
-    <fragment
         android:id="@+id/nearByLocaitonFinal"
         android:name="com.example.mobi2.NearByLocaitonFinal"
-        android:label="fragment_near_by_locaiton_final"
-        tools:layout="@layout/fragment_near_by_locaiton_final" />
-    <fragment
-        android:id="@+id/shareLocationFinal"
-        android:name="com.example.mobi2.ShareLocationFinal"
-        android:label="fragment_share_location_final"
-        tools:layout="@layout/fragment_share_location_final" />
+        android:label="NearByLocaitonFinal" />
 </navigation>

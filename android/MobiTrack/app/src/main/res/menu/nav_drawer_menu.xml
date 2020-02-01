@@ -6,8 +6,9 @@
         android:id="@+id/getMyLocation"
         android:title="Get My Location" />
     <item
-    android:id="@+id/nearByLcoation"
+    android:id="@+id/nearByLocation"
     android:title="Near by Location" />
+
     <item
         android:id="@+id/shareLocation"
         android:title="Share Location" />
