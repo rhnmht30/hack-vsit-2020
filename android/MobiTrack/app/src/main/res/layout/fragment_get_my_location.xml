@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context=".GetMyLocation">
+
+    <data>
+        <variable
+            name="getmylocation"
+            type="com.example.mobi2.GetMyLocation" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/p1"
+                android:scaleType="centerCrop" />
+
+            <Button
+                android:id="@+id/getMyLocationBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="180dp"
+                android:layout_marginBottom="24dp"
+                android:background="?colorPrimary"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Get My Location"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</layout>
