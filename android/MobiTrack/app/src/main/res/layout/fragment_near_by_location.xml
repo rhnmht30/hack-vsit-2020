@@ -39,7 +39,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Find NearBy"
-
+android:fontFamily="@font/montserrat"
                 android:textColor="?colorPrimary"
                 android:textSize="20sp" />
 
@@ -48,6 +48,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:text="Hospitals"
+                android:fontFamily="@font/montserrat"
                 android:textColor="?colorPrimary"
                 android:textSize="20sp" />
 
@@ -55,6 +56,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
+                android:fontFamily="@font/montserrat"
                 android:text="Police Stations"
                 android:textColor="?colorPrimary"
                 android:textSize="20sp" />
@@ -64,6 +66,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
                 android:text="More"
+                android:fontFamily="@font/montserrat"
                 android:textColor="?colorPrimary"
                 android:textSize="20sp" />
         </LinearLayout>
@@ -78,6 +81,7 @@
             android:background="?colorPrimary"
             android:gravity="center"
             android:padding="16dp"
+            android:fontFamily="@font/montserrat"
             android:text="Get Location"
             android:textColor="@android:color/white"
             android:textSize="16sp"

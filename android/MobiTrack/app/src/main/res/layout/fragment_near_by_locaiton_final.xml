@@ -34,6 +34,7 @@
                 >
 
                 <TextView
+                    android:fontFamily="@font/montserrat"
                     android:layout_margin="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -58,6 +59,7 @@
                         />
 
                     <TextView
+                        android:fontFamily="@font/montserrat"
                         android:gravity="center_vertical"
                     android:layout_marginTop="8dp"
                     android:layout_width="wrap_content"
@@ -67,7 +69,7 @@
                     android:textSize="18sp"
                     />
                     <TextView
-
+android:fontFamily="@font/montserrat"
                         android:layout_marginTop="8dp"
                         android:layout_width="wrap_content"
                         android:layout_height="32dp"
@@ -130,6 +132,7 @@
                 >
 
                 <TextView
+                    android:fontFamily="@font/montserrat"
                     android:layout_margin="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -154,6 +157,7 @@
                         />
 
                     <TextView
+                        android:fontFamily="@font/montserrat"
                         android:gravity="center_vertical"
                         android:layout_marginTop="8dp"
                         android:layout_width="wrap_content"
@@ -163,7 +167,7 @@
                         android:textSize="18sp"
                         />
                     <TextView
-
+                        android:fontFamily="@font/montserrat"
                         android:layout_marginTop="8dp"
                         android:layout_width="wrap_content"
                         android:layout_height="32dp"
@@ -226,6 +230,7 @@
                 >
 
                 <TextView
+                    android:fontFamily="@font/montserrat"
                     android:layout_margin="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -250,6 +255,7 @@
                         />
 
                     <TextView
+                        android:fontFamily="@font/montserrat"
                         android:gravity="center_vertical"
                         android:layout_marginTop="8dp"
                         android:layout_width="wrap_content"
@@ -259,7 +265,7 @@
                         android:textSize="18sp"
                         />
                     <TextView
-
+                        android:fontFamily="@font/montserrat"
                         android:layout_marginTop="8dp"
                         android:layout_width="wrap_content"
                         android:layout_height="32dp"
@@ -322,6 +328,7 @@
                 >
 
                 <TextView
+                    android:fontFamily="@font/montserrat"
                     android:layout_margin="16dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -346,6 +353,7 @@
                         />
 
                     <TextView
+                        android:fontFamily="@font/montserrat"
                         android:gravity="center_vertical"
                         android:layout_marginTop="8dp"
                         android:layout_width="wrap_content"
@@ -355,7 +363,105 @@
                         android:textSize="18sp"
                         />
                     <TextView
+                        android:fontFamily="@font/montserrat"
+                        android:layout_marginTop="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:layout_marginLeft="20dp"
+                        android:text=" 1.0 km"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        />
+                </LinearLayout>
 
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/call"
+                        />
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/bookmark"
+                        />
+                    <ImageView
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/share"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_gravity="center"
+            android:layout_marginTop="48dp"
+            android:layout_width="320dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp"
+            android:layout_height="180dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:background="@color/bgcard"
+                >
+
+                <TextView
+                    android:fontFamily="@font/montserrat"
+                    android:layout_margin="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Samyak Clinic"
+                    android:textColor="?colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3"
+
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_margin="10dp"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:background="@drawable/location"
+                        />
+
+                    <TextView
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="center_vertical"
+                        android:layout_marginTop="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dp"
+                        android:text=" Sector 15, Rohini Delhi"
+                        android:textColor="?colorPrimary"
+                        android:textSize="18sp"
+                        />
+                    <TextView
+                        android:fontFamily="@font/montserrat"
                         android:layout_marginTop="8dp"
                         android:layout_width="wrap_content"
                         android:layout_height="32dp"
@@ -406,6 +512,7 @@
         android:layout_marginTop="48dp"
         android:layout_width="320dp"
         app:cardCornerRadius="16dp"
+            android:layout_marginBottom="40dp"
         app:cardElevation="8dp"
         android:layout_height="180dp">
 
@@ -418,6 +525,7 @@
             >
 
             <TextView
+                android:fontFamily="@font/montserrat"
                 android:layout_margin="16dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -442,6 +550,7 @@
                     />
 
                 <TextView
+                    android:fontFamily="@font/montserrat"
                     android:gravity="center_vertical"
                     android:layout_marginTop="8dp"
                     android:layout_width="wrap_content"
@@ -451,7 +560,7 @@
                     android:textSize="18sp"
                     />
                 <TextView
-
+                    android:fontFamily="@font/montserrat"
                     android:layout_marginTop="8dp"
                     android:layout_width="wrap_content"
                     android:layout_height="32dp"
@@ -497,103 +606,8 @@
 
 
     </androidx.cardview.widget.CardView>
-        <androidx.cardview.widget.CardView
-            android:layout_gravity="center"
-            android:layout_marginTop="48dp"
-            android:layout_width="320dp"
-            app:cardCornerRadius="16dp"
-            app:cardElevation="8dp"
-            android:layout_marginBottom="40dp"
-            android:layout_height="180dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:gravity="center_horizontal"
-                android:background="@color/bgcard"
-                >
-
-                <TextView
-                    android:layout_margin="16dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Samyak Clinic"
-                    android:textColor="?colorPrimary"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:weightSum="3"
-
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_margin="10dp"
-                        android:layout_width="32dp"
-                        android:layout_height="32dp"
-                        android:background="@drawable/location"
-                        />
-
-                    <TextView
-                        android:gravity="center_vertical"
-                        android:layout_marginTop="8dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="32dp"
-                        android:text=" Sector 15, Rohini Delhi"
-                        android:textColor="?colorPrimary"
-                        android:textSize="18sp"
-                        />
-                    <TextView
-
-                        android:layout_marginTop="8dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="32dp"
-                        android:layout_marginLeft="20dp"
-                        android:text=" 1.0 km"
-                        android:textStyle="bold"
-                        android:textSize="12sp"
-                        />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:gravity="center_horizontal"
-                    android:layout_marginTop="8dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        android:background="@drawable/call"
-                        />
-                    <ImageView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        android:background="@drawable/bookmark"
-                        />
-                    <ImageView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        android:background="@drawable/share"
-                        />
-                </LinearLayout>
 
 
-            </LinearLayout>
-
-
-        </androidx.cardview.widget.CardView>
 
 
     </LinearLayout>
