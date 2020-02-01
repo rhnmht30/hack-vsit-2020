@@ -1,4 +1,4 @@
-# Welcome to [MobiTrack](https://github.com/rhnmht30/hack-vsit-2020/blob/demo/demo/logo.png?raw=true)!
+# ![MobiTrack](https://github.com/rhnmht30/hack-vsit-2020/blob/demo/demo/logo.png?raw=true)
 #### An offline android map app to helps you when you have a slow/no internet.
 
 # What problem it solves?
