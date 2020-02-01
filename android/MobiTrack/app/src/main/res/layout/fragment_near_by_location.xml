@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".GetMyLocation">
+    tools:context=".NearByLocation">
 
-    <RelativeLayout
+    <data>
+        <variable
+            name="nearByLocation"
+            type="com.example.mobi2.NearByLocation" />
+    </data>
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
+        android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         >
-
 
         <ImageView
             android:id="@+id/img2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/p3"
             android:layout_marginTop="100dp"
+            android:background="@drawable/p3"
             android:scaleType="centerCrop" />
 
         <LinearLayout
@@ -39,32 +44,32 @@
                 android:textSize="20sp" />
 
             <CheckBox
-                android:layout_marginTop="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
                 android:text="Hospitals"
                 android:textColor="?colorPrimary"
                 android:textSize="20sp" />
 
             <CheckBox
-                android:layout_marginTop="12dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
                 android:text="Police Stations"
                 android:textColor="?colorPrimary"
                 android:textSize="20sp" />
 
             <CheckBox
-                android:layout_marginTop="12dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
                 android:text="More"
                 android:textColor="?colorPrimary"
                 android:textSize="20sp" />
         </LinearLayout>
 
         <Button
-            android:id="@+id/getNearByLocation"
+            android:id="@+id/getNearByLocationBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -80,5 +85,6 @@
             />
 
     </RelativeLayout>
+    </ScrollView>
 
-</FrameLayout>
+</layout>
